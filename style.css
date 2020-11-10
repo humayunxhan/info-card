@@ -50,10 +50,11 @@ p.my{
     margin: 0 0 30px 0;
 }
 div.background {
-    height: 300px;
+    height: 200px;
     width: 100%;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
 }
 div.mytext-container{
     margin: 60px 45px 55px;
