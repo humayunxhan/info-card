@@ -4,7 +4,7 @@
     transition: .33 ease all;
     box-sizing: border-box;
 }
-body{
+my.body{
     margin: 0;
     padding: 0;
 }
@@ -12,7 +12,7 @@ html{
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
-span{
+my.span{
     display: inline-block;
     height: 5px;
     width: 50px;
@@ -20,14 +20,14 @@ span{
     margin-bottom: 30px;
     color: #ff4568
 }
-div.main{
+div.mymain{
     height: 100vh;
     display: flex;
     align-items: center;
     background: #80EDFF;
     justify-content: center;
 }
-div.container{
+div.mycontainer{
     background: white;
     display: flex;
     flex-direction: column;
@@ -37,15 +37,15 @@ div.container{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
 }
 
-.imag{
+my.imag{
     width: 100%;
 }
-h1{
+my.h1{
     font-weight: 600;
     font-size: 36px;
     margin: 0 0 15px;
 }
-p{
+my.p{
     font-weight: 300;
     line-height: 24px;
     margin: 0 0 30px 0;
