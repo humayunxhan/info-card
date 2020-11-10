@@ -8,16 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div class="container">
-            <div class="imag"></div>
-            <div class="text-container">
-                <h1>Web Development</h1>
+                    <h1>Web Development</h1>
                 <p>Get the lastest and trending web 
                     development project's source code in the description, first see then get the code.
                 </p>
-                <span><a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
-</span>
+                <a href="https://humayunxhan.github.io/infocard/index.html">Demo Here!</a>
+
             </div>
         </div>
     </div>
