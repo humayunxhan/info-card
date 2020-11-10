@@ -14,9 +14,5 @@
                 </p>
                 <a href="https://humayunxhan.github.io/infocard/index.html">Demo Here!</a>
 
-            </div>
-        </div>
-    </div>
-    
 </body>
 </html>
