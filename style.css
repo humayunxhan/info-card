@@ -4,15 +4,15 @@
     transition: .33 ease all;
     box-sizing: border-box;
 }
-my.body{
+body6{
     margin: 0;
     padding: 0;
 }
-html{
+html6{
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
 }
-my.span{
+span6{
     display: inline-block;
     height: 5px;
     width: 50px;
@@ -20,14 +20,14 @@ my.span{
     margin-bottom: 30px;
     color: #ff4568
 }
-div.mymain{
+div.main{
     height: 100vh;
     display: flex;
     align-items: center;
     background: #80EDFF;
     justify-content: center;
 }
-div.mycontainer{
+div.container6{
     background: white;
     display: flex;
     flex-direction: column;
@@ -37,20 +37,20 @@ div.mycontainer{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
 }
 
-my.imag{
+.imag6{
     width: 100%;
 }
-my.h1{
+h16{
     font-weight: 600;
     font-size: 36px;
     margin: 0 0 15px;
 }
-my.p{
+p6{
     font-weight: 300;
     line-height: 24px;
     margin: 0 0 30px 0;
 }
-div.imag{
+div.imag6{
     height: 205px;
     width: 100%;
     background: url("https://1.bp.blogspot.com/-6TRvJI4deHU/X6WxaLMnv9I/AAAAAAAAQzs/KXX82mQwMso6BjIuxFHQUq1OS9NyjGqlQCLcBGAsYHQ/s640/20201107_012539.jpg");
@@ -58,7 +58,7 @@ div.imag{
     background-position: center;
     background-repeat: no-repeat;
 }
-div.text-container{
+div.text-container6{
     margin: 60px 45px 55px;
 }
 @media screen and (min-width: 768px){
@@ -67,11 +67,11 @@ div.text-container{
         height: 300px;
         flex-direction: row;
     }
-    div.imag{
+    div.imag6{
         min-width: 360px;
         height: 420px;
     }
-    div.text-container{
+    div.text-container6{
         margin: 0 60px;
         max-width: 660px;
     }
