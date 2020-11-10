@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,600,700&display=swap');
+
+*{
+    transition: .33 ease all;
+    box-sizing: border-box;
+}
+body.my{
+    margin: 0;
+    padding: 0;
+}
+html.my{
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+span.my{
+    display: inline-block;
+    height: 5px;
+    width: 50px;
+    background: #FF3434;
+    margin-bottom: 30px;
+}
+div.mymain{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+}
+div.mycontainer{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+}
+
+.imag.my{
+    width: 100%;
+}
+h1.my{
+    font-weight: 600;
+    font-size: 36px;
+    margin: 0 0 15px;
+}
+p.my{
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 0 30px 0;
+}
+div.background {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+div.mytext-container{
+    margin: 60px 45px 55px;
+}
+@media screen and (min-width: 768px){
+    div.mycontainer{
+        width: 100%;
+        flex-direction: row;
+    }
+    div.myimag{
+        min-width: 360px;
+        height: 420px;
+    }
+    div.mytext-container{
+        margin: 0 60px;
+        max-width: 660px;
+    }
+}
+@media screen and (min-width: 1024px){
+    div.mycontainer{
+        max-width: 1200px;
+    }
+}
